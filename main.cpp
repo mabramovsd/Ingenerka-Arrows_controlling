@@ -1,5 +1,5 @@
 #include "TXLib.h"
-#include "Abra.h"
+//#include "Abra.h"
 
 int main()
 {
@@ -23,8 +23,8 @@ int main()
         if (GetAsyncKeyState(VK_DOWN)) {
             y = y + 5;
         }
-        chel(x, y, 1, 1);
-        chel((300 + 3*i) % 600, 50, 3, 0);
+        //chel(x, y, 1, 1);
+        //chel((300 + 3*i) % 600, 50, 3, 0);
         txSleep(10);
     }
     txDeleteDC (fon);
